@@ -1,21 +1,53 @@
 aid: cyota-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cyota-inc.png
 name: Cyota, Inc
-description: 'Cyota, Inc is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Cyota, Inc was a cybersecurity company founded in 1999 in New York City by Naftali Bennett,
+  Lior Golan, Michal Tzur, and Amir Orad, focused on online banking fraud, e-commerce fraud, and
+  anti-phishing protection. Cyota pioneered token-less consumer authentication and risk-based fraud
+  detection for financial institutions, reportedly holding a majority share of the US and UK
+  e-commerce authentication markets. Backed by Bessemer Venture Partners, the company was acquired by
+  RSA Security on December 30, 2005 for approximately $145 million, after which its technology was
+  folded into RSA''s Identity and Fraud portfolio (RSA Adaptive Authentication / FraudAction). Cyota
+  no longer operates as an independent entity and publishes no live developer surface, API, or
+  documentation. This profile is retained for historical/network provenance only.'
 url: https://raw.githubusercontent.com/api-evangelist/cyota-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-acquired
+x-status: acquired
+x-acquired-by: rsa-security
+x-acquired-date: '2005-12-30'
+x-acquired-amount-usd: 145000000
+x-founded: '1999'
+x-enrichment: 'No live developer surface — company acquired by RSA Security (2005) and no longer
+  operates independently. No API, OpenAPI, docs host, or /.well-known surface exists to search, derive,
+  or probe. Identity/hygiene pass only; no artifacts fabricated.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Cybersecurity
+- Fraud Detection
+- Authentication
+- Anti-Phishing
+- Financial Services
+- Identity
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
