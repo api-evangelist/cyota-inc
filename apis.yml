@@ -36,7 +36,7 @@ x-founded: '1999'
 x-enrichment: 'No live developer surface — company acquired by RSA Security (2005) and no longer
   operates independently. No API, OpenAPI, docs host, or /.well-known surface exists to search, derive,
   or probe. Identity/hygiene pass only; no artifacts fabricated.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
